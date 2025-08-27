@@ -20,7 +20,7 @@ const editorSettings={
   },
   "editor.fontSize": 15.8
 }
-const keyboardSettings=[
+const keyboardSettingsWindows=[
   {
     "key": "ctrl+down",
     "command": "cursorMove",
@@ -131,5 +131,98 @@ const keyboardSettings=[
   {
     "key": "ctrl+'",
     "command": "-codesandbox.layout.toggleDevtools"
+  }
+]
+
+
+const keyboardSettingsMac=[
+  {
+    "key": "cmd+down",
+    "command": "cursorMove",
+    "when": "textInputFocus",
+    "args": {
+      "to": "down",
+      "by": "line",
+      "value": 6
+    }
+  },
+  {
+    "key": "cmd+up",
+    "command": "cursorMove",
+    "when": "textInputFocus",
+    "args": {
+      "to": "up",
+      "by": "line",
+      "value": 6
+    }
+  },
+  {
+    "key": "cmd+m cmd+9",
+    "command": "editor.action.rename",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "cmd+m cmd+0",
+    "command": "editor.action.selectToBracket",
+    "args": {
+      "selectBrackets": false
+    }
+  },
+  {
+    "key": "cmd+q",
+    "command": "editor.action.smartSelect.expand"
+  },
+  {
+    "key": "cmd+m cmd+o",
+    "command": "editor.action.marker.next"
+  },
+  {
+    "key": "cmd+[",
+    "command": "workbench.action.navigateBackInNavigationLocations"
+  },
+  {
+    "key": "cmd+]",
+    "command": "workbench.action.navigateForwardInNavigationLocations"
+  },
+  {
+    "key": "cmd+]",
+    "command": "editor.emmet.action.nextEditPoint"
+  },
+  {
+    "key": "cmd+m cmd+u",
+    "command": "editor.emmet.action.updateTag"
+  },
+  {
+    "key": "cmd+m cmd+r",
+    "command": "editor.emmet.action.removeTag"
+  },
+  {
+    "key": "cmd+s",
+    "command": "workbench.action.files.save"
+  },
+  {
+    "key": "cmd+e",
+    "command": "workbench.action.quickOpenNavigateNextInEditorPicker",
+    "when": "inEditorPicker && inQuickOpen"
+  },
+  {
+    "key": "cmd+k cmd+7",
+    "command": "workbench.action.selectTheme"
+  },
+  {
+    "key": "cmd+k cmd+t",
+    "command": "-workbench.action.selectTheme"
+  },
+  {
+    "key": "cmd+alt+right",
+    "command": "cursorLineEndSelect"
+  },
+  {
+    "key": "cmd+alt+left",
+    "command": "cursorLineStartSelect"
+  },
+  {
+    "key": "cmd+m cmd+k",
+    "command": "codesandbox.layout.toggleDevtools"
   }
 ]
