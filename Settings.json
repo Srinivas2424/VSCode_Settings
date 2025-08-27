@@ -1,3 +1,4 @@
+//Editor Settings
 {
   "codesandbox.preinstalledExtensions": [
     "esbenp.prettier-vscode",
@@ -11,8 +12,7 @@
   "workbench.colorTheme": "Smoothy 7",
 
   "editor.lineHeight": "1.6",
-  // "editor.fontFamily": "Consolas, 'Courier New', monospace,"
-  "editor.fontFamily": "JetBrains Mono,Consolas",
+  "editor.fontFamily": "JetBrains Mono,Consolas,Courier New, monospace",
   "editor.cursorWidth": 6,
   "workbench.colorCustomizations": {
     "editorCursor.foreground": "#000000",
