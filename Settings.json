@@ -1,0 +1,22 @@
+{
+  "codesandbox.preinstalledExtensions": [
+    "esbenp.prettier-vscode",
+    "GitHub.vscode-pull-request-github",
+    "sdras.night-owl",
+    "usernamehw.errorlens",
+    "yoavbls.pretty-ts-errors",
+    "gieson.smoothy-7-theme",
+    "snickerdoodle.snickerdoodle-light"
+  ],
+  "workbench.colorTheme": "Smoothy 7",
+
+  "editor.lineHeight": "1.6",
+  // "editor.fontFamily": "Consolas, 'Courier New', monospace,"
+  "editor.fontFamily": "JetBrains Mono,Consolas",
+  "editor.cursorWidth": 6,
+  "workbench.colorCustomizations": {
+    "editorCursor.foreground": "#000000",
+    "list.errorForeground": "#FF0000"
+  },
+  "editor.fontSize": 15.8
+}
